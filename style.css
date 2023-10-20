@@ -1,0 +1,84 @@
+/* Reset some default browser styling */
+body, h1, h2, p, div, input {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-image: url("https://t4.ftcdn.net/jpg/05/41/43/63/240_F_541436316_t0UdElrJswpji70TCJbQOyX2Ccva2rfN.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Reset default input styling */
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #33322f;
+  color: white;
+  border-radius: 20px;
+
+}
+/* Basic styling for the header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+form {
+  text-align: center;
+  padding: 20px;
+}
+/* Style for the search box */
+.search-box {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+/* Basic styling for the main content */
+main {
+  text-align: center;
+  margin-top: 30px;
+}
+/* Styling for the location section */
+.location {
+  margin-bottom: 20px;
+}
+/* Styling for city and date */
+.city {
+  font-size: 24px;
+  font-weight: bold;
+}
+.date {
+  font-size: 18px;
+  color: #666;
+}
+.current {
+  background-color: rgba(208, 214, 202, 0.5); /* Background color with transparency */
+  backdrop-filter: blur(5px); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(112, 26, 26, 0.1);  
+}
+/* Styling for temperature */
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 0 4px rgba(0, 0, 0, 0.4);
+}
+.temp span {
+  font-size: 24px;
+}
+/* Styling for weather description */
+.weather {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
+/* Styling for temperature range */
+.hi-low {
+  font-size: 18px;
+  color: #666;
+}
